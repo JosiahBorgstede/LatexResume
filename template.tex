@@ -1,0 +1,141 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Persona Version (May 15, 2025)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	%a4paper, % Uncomment for A4 paper size (default is US letter)
+	11pt, % Default font size, can use 10pt, 11pt or 12pt
+]{resume} % Use the resume class
+
+\usepackage{ebgaramond} % Use the EB Garamond font
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{calc}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Josiah Borgstede},
+    pdfpagemode=FullScreen,
+    }
+
+%------------------------------------------------
+
+\name{Josiah Borgstede} % Your name to appear at the top
+
+% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
+% Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
+
+\address{(720)-300-9341 \\ josiahborgstede@gmail.com} % Contact information
+
+%\address{121 William St. \\ Tonawanda, NY \\ 14150} % Main address
+
+\address{Linkedin: \url{https://www.linkedin.com/in/josiah-borgstede/}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{rSection}{}
+    A junior software developer with 2 years of experience in both software development and project management. Providing strong knowledge of language-agnostic software design and development in both functional and object-oriented systems. Looking for a role in Estonia to be closer to my partner of 4 years
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+	
+	\textbf{Northeaster University} Boston, MA \hfill \textit{September 2020 - December 2023} \\
+    \textbf{Khoury College of Computer Sciences} \hfill \textit{GPA: 3.39}\\
+	\textit{B.S. in Computer Science}
+    \begin{description}[leftmargin=!,labelwidth=\widthof{\bfseries Relevant Coursework}]
+        \setlength{\itemsep}{-0.5em} \vspace{-0.5em}
+        \item [Relevant Coursework] Object Oriented Design, Computer Graphics, Computer Systems, Digital Design, Programming in C++ 
+    \end{description}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+	\begin{rSubsection}{Kimball Family Tech Solutions}{May 2024 - Present}{Web Developer}{}
+        \item Maintaining and adding features to MyContentDashboard, a content management system built using React. 
+        \item Expanding the functionality of the React front-end, while also updating and maintaining the PHP back-end.
+        \item Updated the old code-base to work with the latest version on Node.js and newer version of third-party libraries
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{The Holy Mess}{January 2022 - Present}{Project Manager}{}
+		\item Executed on the ideas of the owner, working iteratively from idea to final product.
+        \item Assisted in the launching of new sites, and further worked to improve traffic to them through both SEO and advertising
+        \item Investigated solutions and improvements to current issues or problematic processes, and presented the solutions.
+	\end{rSubsection}
+ 
+	\begin{rSubsection}{AMETEK Precitech}{July 2022 - December 2022}{Software Developer}{Keene, NH}
+        \item Developed machine service software that save hours of service and repair work
+        \item Added an automated testing system able to test 50\% of a previously untested legacy codebase
+        \item Utilized agile methodologies and pair programming to better work with my team
+	\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Project
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+
+	\begin{rProject}{Shader Post-Processing}{September 2023 - December 2023}
+        \item Using C++ and OpenGL developed post processing effects applied entirely in the shaders using deferred rendering.
+        \item Special buffers, such as depth and velocity, were used to create unique effects such as motion blur. 
+	\end{rProject}
+    \begin{rProject}{Q}{September 2023 - December 2023}
+        \item A small game meant to be played by AI players, similar to Quirckle
+        \item Players would communicate with the server via TCP using JSON 
+	\end{rProject}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}}l @{}}
+		Computer Languages & C\#, C, C++, JavaScript, PHP, Java, Python, Racket \\
+		Protocols \& APIs & JSON, REST, HTML, XML, MQTT\\
+        Libraries \& Frameworks & .NET, OpenGL, React.js, Node.js TypeScript, Wordpress\\
+        Tools & Vim, Visual Studio, VSCode, IntelliJ
+	\end{tabular}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
